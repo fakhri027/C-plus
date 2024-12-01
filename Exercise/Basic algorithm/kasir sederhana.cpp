@@ -61,7 +61,7 @@ int main() {
   cout << endl;
  
   while (jumlahBayar - totalHarga < 0) {
-    cout << "Maaf, uang anda kurang. Mohon lakukan ulang pembayaran"<<endl;
+    cout << "Maaf, uang anda kurang. Mohon lakukan pembayaran ulang"<<endl;
     cout << "Jumlah Bayar: Rp.";
     cin  >> jumlahBayar;
     cout << endl;
